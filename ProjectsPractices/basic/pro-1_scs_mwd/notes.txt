@@ -1,0 +1,28 @@
+  ***********   for smooth scrolling   *********************
+
+    1. go to link = https://github.com/locomotivemtl/locomotive-scroll 
+    of locomotive github
+
+    2.  got to css section at link = locomotive-scroll.css
+    this give a css file
+     
+    3. copy this css file , make loco.css directory , past the all css there and link with html page.
+
+    4. got to smooth section and copy this code
+
+    const scroll = new LocomotiveScroll();
+    const target = document.querySelector('#js-target');
+    scroll.scrollTo(target);
+
+    and paste in script.js file at top , include this js file in html page.
+
+    5. go to link = locomotive cdn
+         
+         go to file = locomotive-scroll.min.js
+          and copy the url 
+          i.e = https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js
+
+    6. add the script tag inside src paste this step-5 url 
+
+    now smooth scrolling work 
+    to check see the scroll bar that is invisible

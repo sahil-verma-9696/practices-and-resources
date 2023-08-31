@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div id="contant" class="container">
+        <div id="header" class="container">
+            <div id="locations" class="container">
+                <h1 id="city">Kanpur</h1>
+                <h2 id="country">uttar Pradesh</h2>
+            </div>
+            <input id="searchArea" type="text" placeholder="Enter city" class="container">
+        </div>
+
+
+        <div id="main" class="container">
+            <div class="container" id="imgCont">
+                <img src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="404" srcset="">
+                <div id="conditionNature">Partly cloudy</div>
+            </div>
+            <div class="container">
+                last update : <spam id="last_update">  2023-08-24 16:00</spam>
+            </div>
+        </div>
+
+
+        <div id="footer" class="container">
+
+            <div id="temprature" class="container">
+                <div class="data">temprature :<span id="temp-c">  00 &deg C</span></div>
+                <div class="data">feelLike :<span id="feelLike"> 00 &deg C</span></div>
+            </div>
+
+            <div id="other" class="container">
+                <div class="data">uv : <span id="uv">00</span></div>
+                <div class="data">wind : <span id="windSpeed">00</span> km/h</div>
+                <div class="data">humidity : <span id="humidity">00</span></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

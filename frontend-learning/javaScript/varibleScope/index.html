@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variable scope</title>
+</head>
+
+<body>
+    <h1>java script one shot</h1>
+
+    <a href="https://youtu.be/EgDmCbhmstU?si=H5FWxWTs8h-84CET"> video reference link </a>
+
+    <table>
+        <ol>
+            <li><u>scope of <b>var, let and const</b></u> </li><br>
+            <ul>
+                <li>var <b>keyword</b> make varibles to <b> Parente functional scoped </b>.</li>
+                <li>let and const <b>keyword </b>make variable to <b>braces {}</b> scoped </li>
+                <li><a
+                        href="https://github.com/sahil-verma-9696/practices-and-resources/blob/master/frontend-learning/javaScript/varibleScope/script.js">example</a>
+                </li>
+            </ul>
+            <br>
+            <li><u>Some about <b>var</b></u> </li>
+            <br>
+            <ul>
+                <li>on declaration var <b>add </b> it self in <b><i>window object</i></b>.</li>
+                <li>run <b><i>console.log(window)</i></b> to see this</li>
+            </ul>
+            <br>
+            <li><u><b>borwser context api</b></u></li>
+            <br>
+            <ul>
+                <li>browser context api consist <b>three </b> things</li>
+                <li>
+                    <ol>
+                        <li><b><i>window object</i></b></li>
+                        <li><b><i>stack memory</i></b></li>
+                        <ul>
+                            <li>all the <b>function </b> which is executed first store in <b>stack memory</b></li>
+                            <li>ther are <b>two types</b> of stack</li>
+                            <ol>
+                                <li><b><i>Main stacks </i></b>(this is use for <b>synchrounous</b> block of code)</li>
+                                <li><b><i>Side stacks </i></b>(this is use for <b>asynchrounous</b> block of code)</li>
+                            </ol>
+                        </ul>
+                        <li><b><i>heap memory</i></b></li>
+                        <ul>
+                            <li>the <b>intermediate data </b> store in this heap memory</li>
+                            <li><b>intermediate data</b> in sense the data which <b>generate</b> during performing some <b>process</b>
+                            which is not our <b><i>final output data</i></b></li>
+                        </ul>
+                    </ol>
+                </li>
+            </ul>
+            <br>
+            <li><u><b>Executional context </b></u></li>
+            <ul>
+                <li>execution context is a <b> container </b> which is of <i>each <b>individual function</b></i> </li>
+                <li>it is create when any function is <b>call</b> </li>
+                <li>it consist <b>three </b> things </li>
+                <ol>
+                    <li><b>variables</b></li>
+                    <li><b>functions</b></li>
+                    <li><b>lexical enviroment</b> of it's self</li>
+                    <ul>
+                        <li>it consist the <b>information</b> of <b>scopes and scopes chain</b></li>
+                        <li> matlab iss function ki <b>apne varible and function</b> ko access karne ki <b>permisions </b> hai .</li>
+                    </ul>
+                </ol>
+            </ul>
+            <br>
+            <li><b>Spread operator </b>(<u><b> ...<i>reference_name </b></u>)</li>
+            <ul>
+                <li>this is use to <b>copy </b> the data from <b>referenes</b></li>
+                <li><b>what is references ?</b></li>
+                <ul>
+                    <li>any thing which has consist <b>{} , () and []</b></li>
+                </ul>
+            </ul>
+        </ol>
+    </table>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+#main {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+#miniCircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .7s; 
+    z-index: 99;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* display: none; */
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    color: white;
+}
+
+header h1 {
+    opacity: .6;
+    line-height: 1;
+    color: white;
+    text-transform: uppercase;
+    font-size: 9vw;
+    font-weight: 1000;
+    margin-left: 30px;
+}
+
+header #sec-h1 {
+    margin-left: 60px;
+}
+
+#headerCont {
+    width: fit-content;
+    /* width fit according to content position */
+    text-align: right;
+}
+
+#homeFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 1 5px;
+}
+
+#homeFooter a {
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#page2 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin-top: 70px;
+    /* display: none; */
+}
+
+.element {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: .6;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 5vw;
+    border-top: 1px solid white;
+    width: 95%;
+    padding-right: 0px;
+}
+
+.element h5 {
+    font-size: 2vw;
+}
+
+.lastElement {
+    border-bottom: 1px solid white;
+}
+
+.element img {
+    height: 100%;
+    display: none;
+    position: absolute;
+    z-index: 9;
+}
